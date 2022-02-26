@@ -3,6 +3,7 @@
 GET users https://testi-paske.herokuapp.com/users/ POST new user, PUT (update) by id, DELETE by id
 
 Username and password with Basic Auth https://testi-paske.herokuapp.com/users/login
+
 Bearer Token https://testi-paske.herokuapp.com/jwtSecured
 
 
