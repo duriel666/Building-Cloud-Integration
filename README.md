@@ -7,6 +7,7 @@ Username and password with Basic Auth https://testi-paske.herokuapp.com/users/lo
 Bearer Token https://testi-paske.herokuapp.com/jwtSecured
 
 
+
 GET, POST, PUT, DELETE products https://testi-paske.herokuapp.com/products
 
 By location(Kello, Haukipudas, Oulu) https://testi-paske.herokuapp.com/products/location/
