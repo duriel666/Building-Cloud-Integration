@@ -14,7 +14,7 @@ By location(Kello, Haukipudas, Oulu) https://testi-paske.herokuapp.com/products/
 
 By category (electronics, furniture, music) https://testi-paske.herokuapp.com/products/category/
 
-By dateCreated (2021-12-01, 2022-01-01, 2022-02-01) https://testi-paske.herokuapp.com/products/created/
+By date created (2021-12-01, 2022-01-01, 2022-02-01) https://testi-paske.herokuapp.com/products/created/
 
 
 BCI course project by Janne M - TVT20KMO
