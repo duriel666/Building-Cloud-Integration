@@ -16,6 +16,7 @@ const productMw = function(req, res, next) {
 }
 
 // deliveryType 1=picked up, 2=posted, 3=delivered
+// sellersContact 1=email, 2=phonenumber, 3=onsite message
 const products = [{
         "id": uuidv4(),
         "title": "Old computer",
