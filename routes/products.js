@@ -102,7 +102,7 @@ router.get('/location/:location', (req, res) => {
     res.json(result)
 })
 
-router.get('/posting/:dateCreated', (req, res) => {
+router.get('/created/:dateCreated', (req, res) => {
     console.log(req.params.dateCreated)
     const result = []
     for (var i in products) {
