@@ -1,6 +1,6 @@
 # Building-Cloud-Integration 2022
 
-GET users https://testi-paske.herokuapp.com/users/ POST new user, PUT (update) by id, DELETE by id
+GET users, POST new user, PUT (update) by id, DELETE by id https://testi-paske.herokuapp.com/users/
 
 Username and password with Basic Auth https://testi-paske.herokuapp.com/users/login
 
