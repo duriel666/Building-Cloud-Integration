@@ -1,0 +1,183 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The product schema",
+    "description": "The product schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [{
+        "id": 12345,
+        "title": "Old computer",
+        "description": "Used but in good condition Pentium II",
+        "userCategory": "electronics",
+        "location": "Kello",
+        "image1": null,
+        "image2": null,
+        "image3": null,
+        "image4": null,
+        "askingPrice": 4000,
+        "dateCreated": "2021-12-01",
+        "deliveryType": 1,
+        "sellersFirstName": "Janne",
+        "sellersContact": 1
+    }],
+    "required": [
+        "id",
+        "title",
+        "description",
+        "userCategory",
+        "location",
+        "image1",
+        "image2",
+        "image3",
+        "image4",
+        "askingPrice",
+        "dateCreated",
+        "deliveryType",
+        "sellersFirstName",
+        "sellersContact"
+    ],
+    "properties": {
+        "id": {
+            "$id": "#/properties/id",
+            "type": "string",
+            "title": "The id schema",
+            "description": "product id.",
+            "default": 0,
+            "examples": [
+                12345
+            ]
+        },
+        "title": {
+            "$id": "#/properties/title",
+            "type": "string",
+            "title": "The title schema",
+            "description": "product title.",
+            "default": "",
+            "examples": [
+                "Old computer"
+            ]
+        },
+        "description": {
+            "$id": "#/properties/description",
+            "type": "string",
+            "title": "The description schema",
+            "description": "product description.",
+            "default": "",
+            "examples": [
+                "Used but in good condition Pentium II"
+            ]
+        },
+        "userCategory": {
+            "$id": "#/properties/userCategory",
+            "type": "string",
+            "title": "The userCategory schema",
+            "description": "product category.",
+            "default": "",
+            "examples": [
+                "electronics"
+            ]
+        },
+        "location": {
+            "$id": "#/properties/location",
+            "type": "string",
+            "title": "The location schema",
+            "description": "location of the product.",
+            "default": "",
+            "examples": [
+                "Kello"
+            ]
+        },
+        "image1": {
+            "$id": "#/properties/image1",
+            "type": "null",
+            "title": "The image1 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": null,
+            "examples": [
+                null
+            ]
+        },
+        "image2": {
+            "$id": "#/properties/image2",
+            "type": "null",
+            "title": "The image2 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": null,
+            "examples": [
+                null
+            ]
+        },
+        "image3": {
+            "$id": "#/properties/image3",
+            "type": "null",
+            "title": "The image3 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": null,
+            "examples": [
+                null
+            ]
+        },
+        "image4": {
+            "$id": "#/properties/image4",
+            "type": "null",
+            "title": "The image4 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": null,
+            "examples": [
+                null
+            ]
+        },
+        "askingPrice": {
+            "$id": "#/properties/askingPrice",
+            "type": "integer",
+            "title": "The askingPrice schema",
+            "description": "askingprice.",
+            "default": 0,
+            "examples": [
+                4000
+            ]
+        },
+        "dateCreated": {
+            "$id": "#/properties/dateCreated",
+            "type": "string",
+            "title": "The dateCreated schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-12-01"
+            ]
+        },
+        "deliveryType": {
+            "$id": "#/properties/deliveryType",
+            "type": "integer",
+            "title": "The deliveryType schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "sellersFirstName": {
+            "$id": "#/properties/sellersFirstName",
+            "type": "string",
+            "title": "The sellersFirstName schema",
+            "description": "seller name.",
+            "default": "",
+            "examples": [
+                "Janne"
+            ]
+        },
+        "sellersContact": {
+            "$id": "#/properties/sellersContact",
+            "type": "integer",
+            "title": "The sellersContact schema",
+            "description": "sellers contact.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        }
+    },
+    "additionalProperties": true
+}

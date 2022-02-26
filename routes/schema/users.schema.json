@@ -1,0 +1,147 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [{
+        "id": "12345abcde",
+        "username": "jannem",
+        "password": "salasana1",
+        "firstName": "Janne",
+        "lastName": "M",
+        "email": "joku@email.com",
+        "DOB": "1900-01-01",
+        "emailVerified": true,
+        "created": "2012-01-01",
+        "phoneNumber": "+358501234567",
+        "address": "Jokutie 2 asunto 5, Kello, 90820"
+    }],
+    "required": [
+        "id",
+        "username",
+        "password",
+        "firstName",
+        "lastName",
+        "email",
+        "DOB",
+        "emailVerified",
+        "created",
+        "phoneNumber",
+        "address"
+    ],
+    "properties": {
+        "id": {
+            "$id": "#/properties/id",
+            "type": "string",
+            "title": "The id schema",
+            "description": "user id.",
+            "default": "",
+            "examples": [
+                "12345abcde"
+            ]
+        },
+        "username": {
+            "$id": "#/properties/username",
+            "type": "string",
+            "title": "The username schema",
+            "description": "username.",
+            "default": "",
+            "examples": [
+                "jannem"
+            ]
+        },
+        "password": {
+            "$id": "#/properties/password",
+            "type": "string",
+            "title": "The password schema",
+            "description": "user password.",
+            "default": "",
+            "examples": [
+                "salasana1"
+            ]
+        },
+        "firstName": {
+            "$id": "#/properties/firstName",
+            "type": "string",
+            "title": "The firstName schema",
+            "description": "firstname.",
+            "default": "",
+            "examples": [
+                "Janne"
+            ]
+        },
+        "lastName": {
+            "$id": "#/properties/lastName",
+            "type": "string",
+            "title": "The lastName schema",
+            "description": "lastname.",
+            "default": "",
+            "examples": [
+                "M"
+            ]
+        },
+        "email": {
+            "$id": "#/properties/email",
+            "type": "string",
+            "title": "The email schema",
+            "description": "email.",
+            "default": "",
+            "examples": [
+                "joku@email.com"
+            ]
+        },
+        "DOB": {
+            "$id": "#/properties/DOB",
+            "type": "string",
+            "title": "The DOB schema",
+            "description": "users date of birth.",
+            "default": "",
+            "examples": [
+                "1900-01-01"
+            ]
+        },
+        "emailVerified": {
+            "$id": "#/properties/emailVerified",
+            "type": "boolean",
+            "title": "The emailVerified schema",
+            "description": "email verified.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        },
+        "created": {
+            "$id": "#/properties/created",
+            "type": "string",
+            "title": "The created schema",
+            "description": "date created.",
+            "default": "",
+            "examples": [
+                "2012-01-01"
+            ]
+        },
+        "phoneNumber": {
+            "$id": "#/properties/phoneNumber",
+            "type": "string",
+            "title": "The phone number schema",
+            "description": "phone number.",
+            "default": "",
+            "examples": [
+                "+35850123456"
+            ]
+        },
+        "address": {
+            "$id": "#/properties/address",
+            "type": "string",
+            "title": "The address schema",
+            "description": "address.",
+            "default": "",
+            "examples": [
+                "Jokutie 2 asunto 5, Kello, 90820"
+            ]
+        }
+    },
+    "additionalProperties": true
+}
