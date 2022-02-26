@@ -71,7 +71,7 @@ const users = [{
 ];
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Nice')
 })
 
 const secret = process.env.secretkey;
